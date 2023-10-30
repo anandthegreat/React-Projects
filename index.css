@@ -20,6 +20,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    border: 1px;
+    border-style:groove;
 }
 
 .res-card {
@@ -113,4 +115,14 @@
     width: 100px;
     background-color: #eeece8;
     margin: 20px 10px;
+}
+
+.contact{
+    margin: 50px 10px;
+    background-color: #ffffff;
+}
+
+.about {
+    margin: 50px 10px;
+    background-color: #ffffff;
 }

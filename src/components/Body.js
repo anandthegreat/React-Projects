@@ -1,8 +1,9 @@
 import React from "react";
+import Shimmer from "./Shimmer";
 import { useState, useEffect } from "react";
 import { API_ENDPOINT } from "../../src/utils/constants";
-import Shimmer from "./Shimmer";
 import RestaurantCard from "../../src/components/RestaurantCard";
+
 
 const Body = () => {
 
